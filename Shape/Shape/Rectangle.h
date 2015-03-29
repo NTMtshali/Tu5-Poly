@@ -10,8 +10,8 @@ private:
 
 public:
 	Rectangle(int, int, string = "Rectangle");
-	virtual double perimeter() const = 0;
-	virtual void draw() const = 0;
-	virtual double Area() const = 0;
+	virtual double perimeter() const;
+	virtual void draw() const;
+	virtual double Area() const ;
 };
-#endif // !RECTANGLE_H
+#endif

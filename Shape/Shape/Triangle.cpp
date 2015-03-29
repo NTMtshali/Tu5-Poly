@@ -17,6 +17,15 @@ double Triangle::perimeter() const
 	return s1 + s2 + s3;
 }
 
+void Triangle::draw() const
+{
+	cout <<          "+";
+	cout <<        "+++++";
+	cout <<       "+++++++";
+	cout <<      "+++++++++";
+	cout <<     "+++++++++++";
+	cout <<    "+++++++++++++"<< endl;
+}
 double Triangle::Area() const
 {
 	return s3*sps3 / 2;

@@ -8,11 +8,6 @@ Circle::Circle(int r, string name)
 	int radius = r;
 }
 
-string Circle::name() const
-{
-	return name();
-}
-
 double Circle::perimeter() const
 {
 	return  2 * 3.14*radius;
@@ -20,7 +15,15 @@ double Circle::perimeter() const
 
 void Circle::draw() const
 {
-
+	cout <<          "+";
+	cout <<      "+++++++++";
+	cout <<    "+++++++++++++";
+	cout <<  "+++++++++++++++++";
+	cout << "+++++++++++++++++++";
+	cout <<  "+++++++++++++++++";
+	cout <<    "+++++++++++++";
+	cout <<      "+++++++++";
+	cout <<          "+" << endl;
 }
 
 double Circle::Area() const

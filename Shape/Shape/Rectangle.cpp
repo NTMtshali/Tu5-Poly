@@ -14,6 +14,14 @@ double Rectangle::perimeter() const
 	return x + y;
 }
 
+void Rectangle::draw()	const
+{
+	cout << "++++++++++++";
+	cout << "++++++++++++";
+	cout << "++++++++++++";
+	cout << "++++++++++++"<< endl;
+}
+
 double Rectangle::Area()const
 {
 	return x*y;
