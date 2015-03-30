@@ -3,6 +3,7 @@
 using namespace std;
 
 Triangle::Triangle(int side1, int side2, int side3, int sideperpside3, string name)
+//explicitly call base-class constructor
 	: Shape(name)
 {
 	s1 = side1;
@@ -19,12 +20,12 @@ double Triangle::perimeter() const
 
 void Triangle::draw() const
 {
-	cout <<          "+";
-	cout <<        "+++++";
-	cout <<       "+++++++";
-	cout <<      "+++++++++";
-	cout <<     "+++++++++++";
-	cout <<    "+++++++++++++"<< endl;
+	cout <<"\t"<<       "+" << endl;
+	cout <<"\t"<<     "+++++" << endl;
+	cout <<"\t"<<    "+++++++" << endl;
+	cout <<"\t"<<   "+++++++++" << endl;
+	cout <<"\t"<<  "+++++++++++" << endl;
+	cout <<"\t"<< "+++++++++++++" << endl;
 }
 double Triangle::Area() const
 {

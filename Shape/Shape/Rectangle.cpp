@@ -3,6 +3,7 @@
 using namespace std;
 
 Rectangle:: Rectangle(int X, int Y, string name)
+//explicitly call base-class constructor
 	:Shape(name)
 {
 	x = X;
@@ -16,10 +17,10 @@ double Rectangle::perimeter() const
 
 void Rectangle::draw()	const
 {
-	cout << "++++++++++++";
-	cout << "++++++++++++";
-	cout << "++++++++++++";
-	cout << "++++++++++++"<< endl;
+	cout <<"\t"<<"++++++++++++" << endl;
+	cout <<"\t"<<"++++++++++++" << endl;
+	cout <<"\t"<<"++++++++++++" << endl;
+	cout <<"\t"<<"++++++++++++" << endl;
 }
 
 double Rectangle::Area()const

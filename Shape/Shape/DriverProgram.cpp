@@ -18,7 +18,8 @@ int main()
 	
 	for (int i = 0; i <5; i++)
 	{
-		cout << Grand[i]->perimeter() <<"\n"<< endl;
+		cout << Grand[i]->Area() << endl;
+		cout << "\n" << endl;
 	}
 
 }

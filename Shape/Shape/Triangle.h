@@ -2,7 +2,7 @@
 #define TRIANGLE_H
 #include "Shape.h"
 
-
+//Circle class inherits all members of Shape class
 class Triangle : public Shape
 {
 private:
@@ -13,8 +13,10 @@ private:
 
 public:
 	Triangle(int ,int, int, int, string="Triangle");
-	virtual double perimeter() const;
-	virtual void draw() const;
-	virtual double Area() const;
+
+	//functions declared virtual so that they can be redefined specifically for Circle
+	virtual double perimeter() const; //perfoms perimeter calculation
+	virtual void draw() const;		//draws shape
+	virtual double Area() const;	//perfomes area calculation
 };
-#endif // !TRINAGLE_H
+#endif
